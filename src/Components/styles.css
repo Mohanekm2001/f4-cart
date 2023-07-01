@@ -1,0 +1,71 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+}
+button{
+   width:100%;
+   height:50px;
+   color:white;
+   background-color: black;
+}
+button:hover{
+    cursor: pointer;
+}
+.container{
+    margin: 20px;
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    gap:20px;
+    justify-content: space-evenly;
+}
+.container div{
+    width: 300px;
+    border: 1px  solid grey ;
+    padding: 20px;
+}
+.styling{
+    background-color: rgb(182, 178, 178);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+  .nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 30px;
+    position: sticky;
+    top:0px;
+    z-index:999;
+  }
+  .nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: large;
+  }
+.btn{
+    width: fit-content;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+}
+.container1{
+    display: flex;
+    flex-flow:row wrap;
+    font-size: 20px;
+}
+.container1 div{
+    width: 300px;
+    border: 1px  solid grey ;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
